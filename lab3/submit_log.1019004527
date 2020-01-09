@@ -1,0 +1,69 @@
+Submitting assignment 3 from remote.ecf.utoronto.ca
+Checking for the expected files in the current directory
+Main.cpp Rparser.cpp Rparser.h Resistor.h Resistor.cpp Node.h Node.cpp
+Attempting to build your code.  Make output follows:
+==================================================================
+scl enable devtoolset-4 'g++ -std=c++0x -c Main.cpp'
+scl enable devtoolset-4 'g++ -std=c++0x -c Rparser.cpp'
+scl enable devtoolset-4 'g++ -std=c++0x -c Resistor.cpp'
+scl enable devtoolset-4 'g++ -std=c++0x -c Node.cpp'
+scl enable devtoolset-4 'g++ -std=c++0x Main.o Rparser.o Resistor.o Node.o -o rnet'
+------------------------------------------------------------------
+The build appears to have been successful
+
+Running exercise on the produced executable 'rnet'
+############### Testcase 1 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 2 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 3 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 4 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 5 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 6 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 7 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+################# Summary for 7 test(s) #####################
+Functionality: PASS: All tests passed
+Valgrind:      PASS: No memory leaks detected
+
+The required files passed exercise
+
+Submitting files
+
+Verifying submission
+submitece244f -l 3
+total 80
+-rw-r----- 1 submit ece244f   229 Oct 19 00:45 Main.cpp
+-rw-r----- 1 submit ece244f  1223 Oct 19 00:45 Node.cpp
+-rw-r----- 1 submit ece244f   765 Oct 19 00:45 Node.h
+-rw-r----- 1 submit ece244f  1101 Oct 19 00:45 Resistor.cpp
+-rw-r----- 1 submit ece244f   937 Oct 19 00:45 Resistor.h
+-rw-r----- 1 submit ece244f 11637 Oct 19 00:45 Rparser.cpp
+-rw-r----- 1 submit ece244f   150 Oct 19 00:45 Rparser.h
+-rw-r----- 1 submit ece244f   422 Oct 17 15:15 submit_log.1017151526
+-rw-r----- 1 submit ece244f   705 Oct 17 15:21 submit_log.1017151631
+-rw-r----- 1 submit ece244f   705 Oct 17 15:22 submit_log.1017152118
+-rw-r----- 1 submit ece244f   422 Oct 17 15:22 submit_log.1017152246
+-rw-r----- 1 submit ece244f   422 Oct 17 15:23 submit_log.1017152318
+-rw-r----- 1 submit ece244f   614 Oct 17 16:12 submit_log.1017161209
+-rw-r----- 1 submit ece244f   438 Oct 17 16:12 submit_log.1017161232
+-rw-r----- 1 submit ece244f  3070 Oct 17 16:13 submit_log.1017161253
+-rw-r----- 1 submit ece244f  3137 Oct 18 17:08 submit_log.1018170806
+-rw-r----- 1 submit ece244f  3206 Oct 18 17:14 submit_log.1018171442
+-rw-r----- 1 submit ece244f  3277 Oct 19 00:37 submit_log.1019003735
+
+All filesizes match. All timestamps match submission time.
+
+Submission was successful
+

@@ -1,0 +1,43 @@
+Submitting assignment 2 from p97.ecf.utoronto.ca
+Checking for the expected files in the current directory
+Parser.cpp
+Attempting to build your code.  Make output follows:
+==================================================================
+scl enable devtoolset-2 'g++ -std=c++0x -Wall Parser.cpp -o Parser'
+------------------------------------------------------------------
+The build appears to have been successful
+
+Running exercise on the produced executable 'Parser'
+############### Testcase 1 Results ##########################
+Functionality: PASS - Output matches solution
+############### Testcase 2 Results ##########################
+Functionality: PASS - Output matches solution
+############### Testcase 3 Results ##########################
+Functionality: PASS - Output matches solution
+############### Testcase 4 Results ##########################
+Functionality: PASS - Output matches solution
+############### Testcase 5 Results ##########################
+Functionality: PASS - Output matches solution
+############### Testcase 6 Results ##########################
+Functionality: PASS - Output matches solution
+################# Summary for 6 test(s) #####################
+Functionality: PASS: All tests passed
+
+The required files passed exercise
+
+Submitting files
+
+Verifying submission
+submitece244f -l 2
+total 36
+-rw-r----- 1 submit ece244f 14010 Oct  6 12:03 Parser.cpp
+-rw-r----- 1 submit ece244f   380 Oct  5 21:02 submit_log.1005210256
+-rw-r----- 1 submit ece244f  1538 Oct  5 21:05 submit_log.1005210538
+-rw-r----- 1 submit ece244f  1607 Oct  5 23:06 submit_log.1005230627
+-rw-r----- 1 submit ece244f  1676 Oct  5 23:12 submit_log.1005231210
+-rw-r----- 1 submit ece244f   377 Oct  6 12:02 submit_log.1006120247
+
+All filesizes match. All timestamps match submission time.
+
+Submission was successful
+
